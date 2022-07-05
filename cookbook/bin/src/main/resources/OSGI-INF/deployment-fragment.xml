@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<fragment version="1">
+  <install>
+    <!-- to be completed later -->
+	<unzip from="${bundle.fileName}" to="/">
+<include>images1/uinuxeo/**</include>
+</unzip>
+<delete path="${bundle.fileName}.tmp" />
+<mkdir path="${bundle.fileName}.tmp" />
+<unzip from="${bundle.fileName}" to="${bundle.fileName}.tmp" />
+  </install>
+</fragment>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<component name="com.irm.ins2.physicalrecords.operations" version="1.0">
+
+  <extension point="operations" target="org.nuxeo.ecm.core.operation.OperationServiceComponent">
+    <operation class="project.operations.demoOperation" /> 
+  </extension>
+</component>

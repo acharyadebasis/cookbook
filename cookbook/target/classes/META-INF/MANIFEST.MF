@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Built-By: debasisa
+Build-Jdk: 17.0.1
+Bundle-ManifestVersion: 2
+Bundle-Version: 1.0.0
+Created-By: Maven Integration for Eclipse
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Bundle-Vendor: project.test
+Bundle-Name: cookbook-core
+Bundle-SymbolicName: project.test.cookbook-core;singleton=true
+Nuxeo-Component: OSGI-INF/operations-contrib.xml
+
